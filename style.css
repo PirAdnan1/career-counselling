@@ -1,0 +1,118 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+}
+.brand{
+  border-radius:  0% 100% 72% 28% / 100% 0% 100% 0%;
+  padding-bottom: 12rem;
+  padding-right: 16rem;
+  background-color: #f8f6f6;
+  position: absolute;
+  z-index: -1;
+}
+.navbar-1{
+  padding-top: 2.6rem!important;
+}
+.logo-top{
+  position: relative!important;
+  left: 45%!important;
+}
+#navbar-menue-1{
+  background-image: url("setting.png");
+  background-position: left 4rem;
+  background-repeat: no-repeat;
+  background-position: center 19rem;
+}
+#columns{
+
+}
+.navbar-nav{
+  margin-left: 13rem;
+}
+.main-img{
+  width: 35rem;
+  height: 200px;
+}
+.main-img-2{
+  background-image: url("arrow.png");
+  background-repeat: no-repeat;
+  background-position: left 14rem;
+}
+#best-coach{
+  background-image: url("arrow.png");
+  background-repeat: no-repeat;
+  background-position: center -1rem;
+}
+#subscription{
+  background-image: url("arrow.png");
+  background-repeat: no-repeat;
+  background-position: left 1px;
+}
+#columns-3{
+  background-image: url("arrow.png");
+  background-repeat: no-repeat;
+  background-position: right 1px;
+}
+.main-heading-h{
+  font-size: 3rem!important;
+}
+#navbar-menue{
+  /* background-image: url("main-back.png");
+  background-position: right 700px top 200px; */
+
+}
+.btn:focus{
+  box-shadow: none !important;
+}
+.main-heading{
+  background-image: url("arrow.png");
+  background-repeat: no-repeat;
+  background-position: center 3rem;
+}
+.form-control:focus{
+  box-shadow: none !important;
+}
+.card1{
+  transform: 1;
+}
+.card1:hover{
+  background-color: #fff!important;
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+.card2{
+  transform: 1;
+}
+.card2:hover{
+  background-color: #e6f4f9!important;
+  -ms-transform: rotate(-5deg);
+  /* transform: scale(1.1);
+  transition: transform 0.6s; */
+  transform: rotate(-2deg);
+  /* outline: 10px solid #6cbbde!important; */
+}
+.card3:hover{
+  transform: scale(1.1);
+  transition: transform 0.2s;
+    box-shadow: #3cafe2 0px -10px!important;
+}
+#name::placeholder{
+  color: #3cafe2;
+}
+
+@media(max-width: 1200px)  {
+  .vr{
+    display: none!important;
+    height: 2rem!important;
+  }
+}
+@media(max-width: 1253px){
+  .logo-top{
+    position: relative!important;
+    left: 5%!important;
+  }
+  @media(max-width: 1144px){
+    .nav-item{
+      margin: 0px 0px!important;
+    }
+  }
